@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programming Courses</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+     <nav class="navbar">
+        <div class="container">
+           <a href="#home" class="logo">LearnTOcode</a>
+             <ul class="nav-links">
+               <li><a href="#home">Home</a></li>
+               <li><a href="#courses">COURSES</a></li>
+               <li><a href="#about">About Us</a></li>
+               <li><a href="#contact">Contact</a></li>
+             </ul>
+         <button class="menu-toggle" aria-label="Toggle Menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+         </button>
+       </div>
+     </nav>
+  </header>
+
+    
+    <section id="home" class="hero">
+        <h2>Learn Programming the Easy Way!</h2>
+        <p>Explore the best courses to master programming from basics to advanced levels.</p>
+        <a href="#courses" type="btn"  class="btn">Get Started</a>
+    </section>
+
+    <section id="courses">
+        <h2>Available Courses</h2>
+        <div class="courses-container">
+           
+            <div class="course">
+                <img src="images/html&css.jfif" alt="HTML & CSS Course" class="course-image">
+                <h3>HTML & CSS Course</h3>
+                <p>Learn the fundamentals of web development with HTML and CSS.</p>
+                <a href="#" class="btn">View Details</a>
+            </div>
+    
+            <div class="course">
+                <img src="images/js.jpg" alt="JavaScript Course" class="course-image">
+                <h3>JavaScript Course</h3>
+                <p>Start creating dynamic and interactive web applications with JavaScript.</p>
+                <a href="#" class="btn">View Details</a>
+            </div>
+    
+            <div class="course">
+                <img src="images/react.png" alt="React Course" class="course-image">
+                <h3>React.js Course</h3>
+                <p>Build modern and interactive web apps using React.js.</p>
+                <a href="#" class="btn">View Details</a>
+            </div>
+    
+            <div class="course">
+                <img src="images/th.jfif" alt="Python Course" class="course-image">
+                <h3>Python Programming</h3>
+                <p>Learn Python from scratch and start your journey in programming.</p>
+                <a href="#" class="btn">View Details</a>
+            </div>
+    
+            <div class="course">
+                <img src="images/SaQL-image.jpg" alt="SQL Course" class="course-image">
+                <h3>SQL for Beginners</h3>
+                <p>Master the basics of SQL and learn how to manage databases efficiently.</p>
+                <a href="#" class="btn">View Details</a>
+            </div>
+            
+            <div class="course">
+                <img src="images/php.jfif" alt="PHP Course" class="course-image">
+                <h3>PHP Course</h3>
+                <p>Learn PHP to build dynamic websites and web applications.</p>
+                <a href="#" class="btn">View Details</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We provide high-quality programming courses designed for beginners and professionals. Our mission is to make programming accessible to everyone, from people with no prior experience to those who want to enhance their skills and advance in their careers.</p>
+        
+        <p>Our courses cover a variety of topics including web development, data science, database management, and programming languages like HTML, CSS, JavaScript, Python, React.js, SQL, and more. Whether you're interested in building websites, analyzing data, or learning back-end development, we have a course that fits your needs.</p>
+        
+        <p>With our hands-on approach, you'll get real-world experience that will help you build practical skills. Our team of experienced instructors is passionate about teaching and committed to your success.</p>
+        
+        <p>Join us today and start your journey toward becoming a skilled programmer!</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Have any questions? We'd love to hear from you!</p>
+
+        <form id="contactForm">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" placeholder="Your message" required></textarea>
+            </div>
+
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+
+        <div id="confirmationMessage" class="confirmation" style="display: none;">
+            <p>Your message has been sent successfully!</p>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2024 Programming Courses. All Rights Reserved.</p>
+        <p>Follow us on:
+            <a href="#">Facebook</a> | 
+            <a href="#">Twitter</a> | 
+            <a href="#">Instagram</a>
+        </p>
+    </footer>
+
+    <script src="java.js"></script>
+</body>
+</html>
